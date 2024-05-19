@@ -65,3 +65,19 @@ img.logo {
   color: #1b65a6;
   transition: 0.2s;
 }
+
+@media only screen and (max-width: 600px) {
+  .nav-logo {
+    display: flex;
+  }
+
+  .nav-list {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar ul {
+    display: none;
+  }
+}
