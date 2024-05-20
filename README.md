@@ -23,4 +23,4 @@
 
 ## :framed_picture: Link do Site
 
-Acesse o projeto [HC Gaming](https://thiagoaraujot.github.io/HC-Challenge/)
+Acesse o projeto [HC Gaming](https://thiagoaraujot.github.io/Sprint4-WebDevelopment/)
