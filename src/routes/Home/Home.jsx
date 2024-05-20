@@ -2,6 +2,10 @@ import './Home.scss'
 import Navbar from "../../components/Navbar/Navbar";
 import CardLeft from '../../components/CardLeft/CardLeft';
 import CardRight from '../../components/CardRight/CardRight';
+import Banner from '../../components/Banner/Banner';
+import Footer from '../../components/Footer/Footer';
+import Forms from '../../components/Forms/Forms';
+
 import girlImg from "../../assets/1-girl.png";
 import girlImg2 from "../../assets/2-girl.png";
 import enfermeira from "../../assets/enfermeira.png"
@@ -13,6 +17,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
+      <Banner />
       <CardRight
         id="public"
         img={girlImg}
@@ -72,8 +77,10 @@ const Home = () => {
         second_text="Ansiedade Transformada em Desafios:
         Mudamos a narrativa da ansiedade para desafios emocionantes. Cada exame é agora uma jornada, reduzindo a tensão e criando um ambiente mais acolhedor para as crianças."
       />
-    </>
 
+      <Forms/>
+      <Footer/>
+    </>
   );
 };
 
