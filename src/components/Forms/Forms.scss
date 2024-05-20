@@ -88,7 +88,8 @@ label {
 }
 
 .form-img {
-  width: 30rem;
+  position: absolute;
+  width: 24rem;
 }
 
 .change-color {
@@ -137,7 +138,6 @@ label {
   line-height: normal;
   text-decoration: none;
 }
-
 
 @media only screen and (max-width: 600px) {
   .form-img {

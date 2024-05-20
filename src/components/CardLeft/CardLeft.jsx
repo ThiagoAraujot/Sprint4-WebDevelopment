@@ -1,4 +1,5 @@
 import "./CardLeft.scss"
+
 const CardLeft = ({id, img, number, title, first_text, second_text}) => {
     return (
       <section id={id} className="container-left">
